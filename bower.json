@@ -1,0 +1,20 @@
+{
+  "name": "jquery-simple-plugin",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "vidrepar"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}
