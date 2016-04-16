@@ -9,6 +9,7 @@ var serve = require('gulp-serve');
 
 gulp.task('serve', serve('./'));
 
+//BUILD TASKS
 gulp.task('js', function(){
 
   domSrc({ file:'index.html', selector:'script', attribute:'src' })
@@ -32,5 +33,5 @@ gulp.task('html', function(){
 
 });
 
-//MASTER TASK
+//MASTER BUILD TASK
 gulp.task('build', ['js', 'html']);
